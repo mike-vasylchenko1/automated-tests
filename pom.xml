@@ -15,6 +15,13 @@
             <url>https://mvnrepository.com/artifact/</url>
         </repository>
     </repositories>-->
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <name>bintray</name>
+            <url>https://www.martingilday.org/repository/</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
