@@ -15,19 +15,19 @@
             <url>https://mvnrepository.com/artifact/</url>
         </repository>
     </repositories>-->
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>jcenter</id>
             <name>bintray</name>
             <url>https://www.martingilday.org/repository/</url>
         </repository>
-    </repositories>
+    </repositories>-->
 
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>5.8</version>
+            <version>7.1.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
