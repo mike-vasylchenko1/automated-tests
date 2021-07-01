@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Build with Maven
-      run: mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/suite.xml
+      run: mvn clean test -Dhttps.protocols=TLSv1.2 -Dsurefire.suiteXmlFiles=src/test/resources/suite.xml
